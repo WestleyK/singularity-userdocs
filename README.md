@@ -7,11 +7,11 @@ This project uses <a href="http://docutils.sourceforge.net/rst.html"> reStructur
 
 First things first, you will need to install the following tools:
 
-- <a href="https://www.python.org/download/releases/2.7/">Install Python 2.7</a> 
-- After that then you will need to install Sphinx:
-  
 ```
-pip install -U Sphinx
+sudo apt-get update
+sudo apt-get -y install python-sphinx
+sudo apt-get -y install python-pip
+pip install sphinx_rtd_theme
 ```
 
 You're all set! after this you will only need to use your favorite editor for RST files.
